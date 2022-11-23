@@ -29,7 +29,7 @@ h6 {
 
 p {
     margin: 1em 0;
-    max-width: 768px;
+    max-width: 640px;
     text-align: justify;
 }
 
@@ -72,11 +72,14 @@ abbr {
 
 .imagem-a-direita {
     float: right;
-    margin: 32px;
 }
 
 .limpar {
     clear: both;
+}
+
+.aqui {
+    font-weight: bold;
 }
 
 
