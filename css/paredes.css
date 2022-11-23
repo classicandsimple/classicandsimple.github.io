@@ -1,0 +1,93 @@
+@import "tintas.css";
+
+header,
+main,
+footer {
+    color: var(--preto);
+    margin: auto;
+    padding: 16px;
+}
+
+footer {
+    background-color: var(--branco);
+    height: 100%;
+}
+
+footer hr {
+    margin: 16px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+p {
+    margin: 1em 0;
+    max-width: 768px;
+    text-align: justify;
+}
+
+nav img,
+nav ul {
+    float: left;
+}
+
+nav ul {
+    margin: 16px;
+    padding: auto 16px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+a,
+a:visited {
+    color: var(--azul);
+}
+
+main a {
+    font-weight: bold;
+}
+
+a,
+abbr {
+    text-decoration: none;
+}
+
+.frase {
+    color: var(--cinza);
+    font-style: italic;
+}
+
+.conteudo-centralizado {
+    text-align: center;
+}
+
+.imagem-a-direita {
+    float: right;
+    margin: 32px;
+}
+
+.limpar {
+    clear: both;
+}
+
+
+@media screen and (max-width:768px) {
+
+    footer p {
+        text-align: center;
+    }
+
+    .imagem-a-direita {
+        float: none;
+    }
+
+}

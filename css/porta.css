@@ -1,0 +1,30 @@
+@import "tintas.css";
+
+.casa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.casa img {
+    text-align: center;
+}
+
+.casa a, .casa {
+    text-align: center;
+    text-decoration: none;
+}
+
+.casa a,
+.casa a:visited {
+    color: var(--azul);
+}
+
+.casa figcaption {
+    margin-top: 16px;
+}
+
+p {
+    margin: 16px 0;
+}
