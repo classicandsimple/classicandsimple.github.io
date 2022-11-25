@@ -61,6 +61,10 @@ abbr {
     text-decoration: none;
 }
 
+figcaption {
+    margin: 8px 0 16px;
+}
+
 .frase {
     color: var(--cinza);
     font-style: italic;
@@ -70,8 +74,13 @@ abbr {
     text-align: center;
 }
 
-.imagem-a-direita {
+.direita {
     float: right;
+}
+
+.lateral {
+    margin-top: 16px;
+    min-width: 352px;
 }
 
 .limpar {
