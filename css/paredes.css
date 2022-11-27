@@ -4,8 +4,7 @@ header,
 main,
 footer {
     color: var(--preto);
-    margin: auto;
-    padding: 16px;
+    margin: 16px auto 16px;
 }
 
 footer {
@@ -93,6 +92,12 @@ figcaption {
 
 
 @media screen and (max-width:768px) {
+
+    header,
+    main,
+    footer {
+        padding: 0 16px;
+    }
 
     footer p {
         text-align: center;
